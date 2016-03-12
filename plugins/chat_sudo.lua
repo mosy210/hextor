@@ -1,25 +1,25 @@
 local function run(msg, matches)
     if msg.text == "salam" then
       if is_sudo(msg) then
-        return "سلام مامانی"
+        return "سلام بابای"
       else
-        return "salam mamani ^_^"
+        return "salam babay  ^_^"
       end
     elseif msg.text == "بای" then
       if is_sudo(msg) then
-        return "اودافظ مامانی جونم "
+        return "بای بابایی😘"
       else
         return "خداحافظ"
       end
     elseif msg.text == "سلام" then
       if is_sudo(msg) then
-        return "سلام مامانی جونم "
+        return "سلام بابا جون😚"
       else
         return "سلام"
         end
     elseif msg.text == "bye" then
       if is_sudo(msg) then
-        return "^_^ اودافظ مامانی جونم "
+        return "^_^ bya baba "
       else
         return "خدا نگه دار"
       end
